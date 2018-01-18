@@ -168,7 +168,7 @@
         self.set(el, state, false);
       } else if (!self.suppressWarnings) {
         console.warn(`Cannot toggle \`aria-${state}\` as its starting value is not a boolean \
-          (it\'s \`${current}\`)`);
+          (it's \`${current}\`)`);
       }
     };
 
@@ -182,8 +182,8 @@
     };
   };
 
-  window.rb.a11y = window.rb.a11y || {};
-  window.rb.a11y.state = new A11yState();
+  window.ra11y = window.ra11y || {};
+  window.ra11y.state = new A11yState();
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = a11y;
@@ -192,6 +192,6 @@
       return a11y;
     });
   } else {
-    window.a11y = a11y;
+    window.ra11y = a11y;
   }
-})(window.a11y, window.module, window.define);
+})(window.ra11y, window.module, window.define);

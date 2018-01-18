@@ -1,0 +1,31 @@
+{
+  "name": "ra11y",
+  "version": "1.0.0",
+  "description": "Rocketbelt accessibility helpers for VanillaJS & jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pier1/ra11y.git"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y"
+  ],
+  "author": "Pier 1 Imports, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pier1/ra11y/issues"
+  },
+  "homepage": "https://github.com/Pier1/ra11y#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

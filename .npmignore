@@ -1,0 +1,6 @@
+.eslintrc
+CHANGELOG.md
+README.md
+gulp-tasks/
+gulpfile.js
+test/
